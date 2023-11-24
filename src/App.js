@@ -1,15 +1,20 @@
-import logo from './logo.svg';
+// App.js
+
+import React from 'react';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      
-        <p>
-          Hello, World
-        </p>              
-      </header>
+    <div className="container">
+      <div className="box">
+        <h1 className="name">Alvin Guatato</h1>
+      </div>
+      <div className="box">
+        <h1 className="GradeSect">BSIT-NS-3A</h1>
+      </div>
+      <div className="box">
+        <h1 className="title">Sample Exercise</h1>
+      </div>
     </div>
   );
 }
